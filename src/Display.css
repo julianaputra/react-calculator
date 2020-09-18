@@ -1,0 +1,14 @@
+.display{
+    width: 200px;
+    min-height: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px;
+    background-color: #fff;
+    overflow-x: scroll;
+}
+
+.display::-webkit-scrollbar {
+    display: none;
+}
